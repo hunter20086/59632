@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+.header {
+  background-color: #fff;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo img {
+  width: 150px;
+  height: auto;
+}
+
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.header .nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.header .nav ul li {
+  margin: 0 10px;
+}
+
+.header .nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.header .nav ul li a:hover {
+  background-color: #ddd;
+}
+
+.hero {
+  background: url('path/to/your/hero-image.jpg') no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 24px;
+  margin: 10px 0 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: transparent;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+
+.main-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.main-menu li {
+  margin-right: 20px;
+}
+
+.main-menu li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.main-menu li a:hover {
+  background-color: #ddd;
+}
+
+.brands {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end; /* Push items to the right */
+  height: auto;
+}
+
+.tuotempo img,
+.gipo img {
+  width: 100px; /* Adjust size as needed */
+  height: auto;
+}
+
+.brands__logos {
+  display: flex;
+  justify-content: flex-end; /* Push items to the right */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.brands__logos li {
+  margin: 10px;
+  width: 150px;
+}
+
+.brands__logos svg {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.text p:first-of-type {
+  margin-bottom: 20px;
+}
+
+.text p {
+  margin-top: 20px;
+}
+
+.logo-docplanner {
+  width: 300px;
+  height: auto;
+}
+
+
+
+.services__item h1 {
+  margin-bottom: 10px; /* Adjust spacing */
+}
+
+.services__item h2 {
+  font-size: 14px; /* Example font size */
+  margin-bottom: 20px; /* Adjust spacing */
+}
+
